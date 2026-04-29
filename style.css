@@ -1,0 +1,21 @@
+/*
+Theme Name: ImmensTheme
+Theme URI: https://github.com/Studio-Immens/ImmensTheme
+Description: High‑performance, fully customisable block‑based theme for ImmensPress. Inspired by Blocksy – modular, lightweight, and built for direct‑response marketing.
+Version: 1.0.0
+Author: Studio Immens
+Author URI: https://studioimmens.com
+License: GPL-3.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-3.0.txt
+Text Domain: immens
+Tags: block-patterns, full-site-editing, custom-colors, custom-spacing, responsive
+*/
+
+/* Minimal base styles – most styling is handled via theme.json and block patterns */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--wp--preset--font-family--system);
+    background: var(--wp--preset--color--background);
+    color: var(--wp--preset--color--foreground);
+}

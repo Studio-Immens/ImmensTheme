@@ -1,0 +1,51 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {"name": "Primary", "slug": "primary", "color": "#1b84e5"},
+                {"name": "Secondary", "slug": "secondary", "color": "#ff6f61"},
+                {"name": "Background", "slug": "background", "color": "#ffffff"},
+                {"name": "Foreground", "slug": "foreground", "color": "#222222"}
+            ],
+            "custom": false
+        },
+        "typography": {
+            "fontFamilies": {
+                "system": {
+                    "fontFamily": "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+                },
+                "sans": {
+                    "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+                }
+            }
+        },
+        "spacing": {
+            "units": ["px", "%", "rem", "em"],
+            "custom": false
+        },
+        "layout": {
+            "contentSize": "90%",
+            "wideSize": "1200px",
+            "isExperimentalPreviousVersion": true
+        },
+        "dimensions": {
+            "maxWidth": "2000px"
+        }
+    },
+    "blocks": {
+        "core/**/*.group": {
+            "align": ["full", "wide"]
+        }
+    },
+    "styles": {
+        "typography": {
+            "fontSize": {
+                "small": "0.875rem",
+                "medium": "1rem",
+                "large": "1.25rem",
+                "xlarge": "1.5rem"
+            }
+        }
+    }
+}
